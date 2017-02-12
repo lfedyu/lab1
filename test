@@ -19,7 +19,7 @@ public class test2 {
 			 if (s.charAt(i)>'m') k++;	 
 		 }
 		 fin=k+"/"+s.length();
-		 System.out.print(fin);
+		 //System.out.print(fin);
 	        return fin;
 	}
 }
