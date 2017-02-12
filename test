@@ -1,0 +1,25 @@
+package test2;
+
+public class test2 {
+	
+	public static void main (String args[])
+	{
+	
+		printerError("aaabbbhhhyuyyym");
+		
+	}
+	
+	 public static String printerError(String s) 
+	{
+		 int k=0;
+		 String fin;
+		 for(int i=0; i< s.length();i++)
+		 {
+			 if (s.charAt(i)>'z' || s.charAt(i)<'a')  return "";
+			 if (s.charAt(i)>'m') k++;	 
+		 }
+		 fin=k+"/"+s.length();
+		 //System.out.print(fin);
+	        return fin;
+	}
+}
